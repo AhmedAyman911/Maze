@@ -39,7 +39,6 @@ def DFS(m,start=None):
     return dSeacrh,dfsPath,fwdPath
 
 if __name__=='__main__':
-    #Test
      m=maze()
      m.CreateMaze(loadMaze='dfs.csv')
 
